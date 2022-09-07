@@ -2,8 +2,10 @@
 
 # enunciado
 HEY, PRONTOS PARA O DESAFIO?
+
 Nosso objetivo de hoje é criar uma api para manipular os cursos do projeto Din
 Din
+
 Requisitos
 Você deverá criar um projeto de uma api para manipular um json contendo as
 informações do cursos. Seu projeto irá precisar usar arquitetura MVC junto com
