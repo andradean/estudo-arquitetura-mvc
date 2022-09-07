@@ -31,7 +31,7 @@ function deleteCurso(id) {
 
   fs.writeFileSync(
     path.resolve("database", "curso.json"),
-    JSON.stringify(listCursos)
+    JSON.stringify(listCurso)
   );
 }
 

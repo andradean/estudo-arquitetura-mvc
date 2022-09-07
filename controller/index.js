@@ -15,6 +15,8 @@ const cursoController = {
     response.status(201).json(newCurso);
   },
   delete: (request, response) => {
+    response.setHeader("Access-Control-Allow-Origin", "*");
+
     const { id } = request.params;
     const newCurso = cursoModel.deleteCurso(id);
     response.status(204);
